@@ -22,20 +22,21 @@
     border-radius: 4px;
     color: var(--social-lincs-color);
     transition: color var(--hover-focus-transition), border-color var(--hover-focus-transition);
+    &:hover,
+    &:focus {
+            border-color: var(--accent-text-color);
+            color: var(--accent-text-color);
+        }
 }
-.customer-link:hover,
-.customer-link:focus {
-    border-color: var(--accent-text-color);
-    color: var(--accent-text-color);
-}
+
 .customer-icon {
     width: 106px;
     height: 60px;
     fill: currentColor;
     transition: fill var(--hover-focus-transition);
-}
-.customer-link:hover .customer-icon,
-.customer-link:focus .customer-icon {
-    fill: var(--accent-text-color);
-    cursor: pointer;
+        .customer-link:hover &,
+        .customer-link:focus & {
+            fill: var(--accent-text-color);
+            cursor: pointer;
+        }
 }

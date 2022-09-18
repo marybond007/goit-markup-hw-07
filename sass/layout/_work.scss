@@ -5,10 +5,11 @@
     text-align: center;
     color: var(--primary-text-color);
     margin-bottom: 50px;
+     .list {
+            list-style: none;
+        }
 }
-.work-title .list {
-    list-style: none;
-}
+
 .list-photo-container {
     display: flex;
     column-gap: 30px;

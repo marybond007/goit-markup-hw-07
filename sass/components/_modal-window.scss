@@ -24,8 +24,9 @@
      border-radius: 50%;
      padding: 0;
      cursor: pointer;
-     transition: fill var(--hover-focus-transition)
+     transition: fill var(--hover-focus-transition);
+    &:hover {
+            fill: var(--accent-text-color);
+        }
  }
- .modal-close-button:hover {
-     fill: var(--accent-text-color);
- }
+ 
