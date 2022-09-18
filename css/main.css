@@ -13,6 +13,12 @@
   --hover-focus-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-sotial-list-link, .customer-link, .sotial-list-link, .discribe-photo, .icon-border, .modal-form-check-field, .modal-close-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .visualy-hidden {
   position: absolute;
   width: 1px;
@@ -73,9 +79,9 @@ body {
 
 .button {
   font-family: Roboto, sans-serif;
-  font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
+  font-weight: 700;
+  line-height: 30px;
   letter-spacing: 0.06em;
   padding: 10px 32px;
   background-color: var(--accent-text-color);
@@ -208,9 +214,6 @@ body {
   position: absolute;
   top: 8px;
   right: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 30px;
   height: 30px;
   background-color: transparent;
@@ -263,8 +266,8 @@ body {
 
 .modal-form-field-desc {
   display: block;
-  font-weight: 400;
   font-size: 12px;
+  font-weight: 400;
   line-height: 14px;
   letter-spacing: 0.01em;
   color: var(--secondary-text-color);
@@ -316,9 +319,6 @@ body {
 }
 
 .modal-form-check-field {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-bottom: 30px;
 }
 
@@ -355,8 +355,8 @@ body {
   border-radius: 4px;
   border: none;
   align-self: center;
-  font-weight: 700;
   font-size: 16px;
+  font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.06em;
   color: var(--accent-secondary-text-color);
@@ -429,9 +429,6 @@ body {
 }
 
 .icon-border {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 270px;
   height: 120px;
   background-color: var(--secondary-bcg-color);
@@ -498,9 +495,6 @@ body {
   width: 100%;
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .work {
@@ -563,9 +557,6 @@ body {
 }
 
 .sotial-list-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -600,9 +591,6 @@ body {
 }
 
 .customer-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 170px;
   height: 92px;
   border: 1px solid #AFB1B8;
@@ -696,9 +684,6 @@ body {
 }
 
 .footer-sotial-list-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;

@@ -13,9 +13,7 @@
     color: var(--primary-text-color);
 }
 .icon-border {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %aline;
     width: 270px;
     height: 120px;
     background-color: var(--secondary-bcg-color);
