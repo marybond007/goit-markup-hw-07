@@ -401,40 +401,6 @@ body {
   transform: translateY(0);
 }
 
-.header-line {
-  border-bottom: 1px solid var(--hr-line-color);
-}
-
-.button-portfolio {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
-  background-color: var(--secondary-bcg-color);
-  border-radius: 4px;
-  padding: 6px 22px;
-  border: none;
-  cursor: pointer;
-  transition: background-color var(--hover-focus-transition), color var(--hover-focus-transition), box-shadow var(--hover-focus-transition);
-}
-
-.buttom-container {
-  display: flex;
-  column-gap: 8px;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
-.button-portfolio:hover,
-.button-portfolio:focus {
-  background-color: var(--accent-text-color);
-  color: var(--accent-secondary-text-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
 .hero {
   background-color: var(--primary-bcg-color);
   max-width: 1600px;
@@ -867,6 +833,40 @@ body {
 
 .portfolio {
   list-style: none;
+}
+
+.header-line {
+  border-bottom: 1px solid var(--hr-line-color);
+}
+
+.button-portfolio {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: var(--secondary-bcg-color);
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: none;
+  cursor: pointer;
+  transition: background-color var(--hover-focus-transition), color var(--hover-focus-transition), box-shadow var(--hover-focus-transition);
+  font-family: "Roboto";
+}
+
+.buttom-container {
+  column-gap: 8px;
+  justify-content: center;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: var(--accent-text-color);
+  color: var(--accent-secondary-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .border-card-link {
